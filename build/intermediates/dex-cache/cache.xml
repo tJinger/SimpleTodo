@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/tjing/work/git/Android_BootCamp/SimpleTodo/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="/Users/tjing/work/git/Android_BootCamp/SimpleTodo/app/build/intermediates/pre-dexed/debug/classes-68b5f1a664c48adec4aa786b5838f77eeff75288.jar" />
+    </item>
+
+</items>

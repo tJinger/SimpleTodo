@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.walmart.simpletodo.ModifyTaskActivity">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/task_name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edittext_task_title"
+                android:ems="10"
+                android:gravity="left"
+                android:layout_width="fill_parent" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/due_date"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <DatePicker
+                android:id="@+id/datepicker_due_date"
+                android:calendarViewShown="false"
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/task_note"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_note"
+                android:ems="10"
+                android:gravity="left"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/priority_level"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_priority_level"
+                android:entries="@array/task_priority_level"
+                android:gravity="left"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/status"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_completion_status"
+                android:entries="@array/task_completion_status"
+                android:gravity="left"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

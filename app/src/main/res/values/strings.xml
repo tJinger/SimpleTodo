@@ -1,0 +1,30 @@
+<resources>
+    <string-array name="task_priority_level">
+        <item>@string/priority_level_high</item>
+        <item>@string/priority_level_medium</item>
+        <item>@string/priority_level_low</item>
+    </string-array>
+    <string-array name="task_completion_status">
+        <item>@string/task_status_todo</item>
+        <item>@string/task_status_done</item>
+    </string-array>
+
+    <string name="app_name">SimpleTodo</string>
+    <string name="save">Save</string>
+    <string name="edit_item">Edit Item Below:</string>
+    <string name="title_activity_add_task">Add Task</string>
+    <string name="task_name">Task Name</string>
+    <string name="due_date">Due Date</string>
+    <string name="task_note">Task Notes</string>
+    <string name="priority_level">Priority Level</string>
+    <string name="status">Status</string>
+    <string name="priority_level_high">High</string>
+    <string name="priority_level_medium">Medium</string>
+    <string name="priority_level_low">Low</string>
+    <string name="task_status_done">Done</string>
+    <string name="task_status_todo">ToDo</string>
+    <string name="add_task">Add</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_cancel">Cancel</string>
+
+</resources>

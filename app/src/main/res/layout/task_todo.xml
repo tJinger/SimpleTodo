@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/tkId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/tkName"
+        android:padding="3dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Name"
+        android:textColor="@color/titleColor"
+        android:textStyle="bold|normal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/tkPriority"
+        android:gravity="left"
+        android:padding="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Priority"
+        android:textColor="@color/textColor"
+        android:layout_toLeftOf="@+id/tkStatus"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:id="@+id/tkStatus"
+        android:gravity="left"
+        android:padding="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textColor="@color/textColor"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:id="@+id/tkNote"
+        android:padding="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/tkPriority"
+        android:layout_alignBottom="@+id/tkDueDate"
+        android:layout_alignTop="@+id/tkDueDate"
+        android:layout_alignRight="@+id/tkName"
+        android:layout_alignEnd="@+id/tkName"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:typeface="monospace" />/>
+    <TextView
+        android:id="@+id/tkDueDate"
+        android:padding="3dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="DueDate"
+        android:layout_below="@+id/tkPriority"
+        android:layout_toRightOf="@+id/tkName"
+        android:layout_toEndOf="@+id/tkName"
+        android:layout_alignParentEnd="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:typeface="serif"
+        android:textStyle="italic" />/>
+</RelativeLayout>
